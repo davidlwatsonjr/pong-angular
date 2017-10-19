@@ -1,0 +1,33 @@
+pong-field {
+  background-color: #000;
+  display: block;
+  height: 400px;
+  position: relative;
+  width: 1000px;
+}
+
+pong-field::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background-color: #aaa;
+  left: 50%;
+  margin-left: -1px;
+}
+
+pong-paddle {
+  background-color: #fff;
+}
+
+pong-ball {
+  background-color: #fff;
+  border-radius: 50%;
+  display: block;
+  height: 50px;
+  left: 150px;
+  position: absolute;
+  top: 150px;
+  width: 50px;
+}
