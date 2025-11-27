@@ -13,7 +13,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^4.2.4",
-    "@angular/common": "^4.2.4",
+    "@angular/common": "^21.0.1",
     "@angular/compiler": "^4.2.4",
     "@angular/core": "^17.2.3",
     "@angular/forms": "^4.2.4",
